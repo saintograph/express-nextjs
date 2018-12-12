@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "outDir": "./build",
+      "allowJs": true,
+    //   "target": "es5",
+      "target": "esnext",
+      "module": "esnext",
+      "jsx": "preserve",
+      "moduleResolution": "node",
+      "lib": ["dom", "es2017"],
+  },
+  "include": [
+      "./src/**/*",
+      "./*.js"
+  ]
+}

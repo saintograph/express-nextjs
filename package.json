@@ -1,0 +1,31 @@
+{
+  "name": "crate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "types": "server.d.ts",
+  "scripts": {
+    "dev": "node ./build/server.js",
+    "build": "next build src",
+    "start": "NODE_ENV=production node ./build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/next": "^7.0.5",
+    "@types/node": "^10.12.12",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "typescript": "^3.2.2"
+  }
+}
